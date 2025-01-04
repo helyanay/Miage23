@@ -31,4 +31,25 @@ m'occuper de la partie testing et du code pour les cases inexistantes.
 ## HOMEWORK : 
 
 Préparation à la présentation orale de nos katas 
- 
+
+
+## EL MANSOURI Yacine
+# WEEK 10 :
+
+### Cours 
+Cette semaine on a vu les differents types, statique et dynamique et les interfaces.
+Pour resumé en 2 point :  
+- Le message en programmation suit deux étapes : recherche de méthode (dans la classe de l’objet récepteur, puis dans ses superclasses si nécessaire) et 
+exécution de cette méthode. Les types influencent cette mécanique par leur nature statique 
+ou dynamique. Les types statiques sont déclarés au moment de la compilation et ne changent pas, 
+tandis que les types dynamiques dépendent de l’objet lié à l’exécution. La distinction est 
+cruciale dans des environnements avec vérification de type, où seuls les messages valides 
+peuvent être envoyés.
+
+- Les objets polymorphes facilitent l’évolution logicielle, permettant à des objets d’interagir 
+sans appartenir à la même hiérarchie. En langage dynamique, cette flexibilité repose sur le 
+"duck typing" (un objet est compatible s’il implémente les méthodes nécessaires). 
+En revanche, en langage statique, les interfaces définissent explicitement les types attendus. 
+
+### Kata
+J'ai continué a avancé sur le point "en passant" en reglant notamment les bugs au fur et à mesure.
