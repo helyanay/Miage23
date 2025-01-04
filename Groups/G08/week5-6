@@ -63,5 +63,25 @@ en augmentant petit à petit la complexite) afin de m'exercer sur la rélisation
 
 
 
+## EL MANSOURI Yacine
+
+# WEEK 5 :
+
+Cette semaine on a decouvert le concept de Template Methode avec les  Hooks. Ce modèle permettent de structurer un algorithme général tout en laissant aux sous-classes la responssabilité de définir certaines spécificités.
+
+- Template Method :  
+La Template Method, c'est donc un design patern qui va avoir une méthode dans la superclasse qui définit les étapes générales d'un algorithme. Elle fixe alors la structure commune et delegue certaines étapes aux sous classes qui sont des methodes abstraites.
+
+- Hook :  
+Ces methodes abstraites de la super classe sont alors definis par les sous classes, elles sont nommées "hook". Elle permette aux sous classes d'avoir un comportement specifique.
+
+- Pour donner un exemple, on peut en retrouver dans le projet Chess. Dont la méthode targetSquare. Elle agit comme une Template Method qui définit la logique générale pour cibler une case. Et le hook est la méthode targetSquareLegal qui est definit par les sous classes pour adapter le comportement de chaque type de pièce.
+
+# WEEK 6 : 
+## HOMEWORK : 
+
+Pas grand chose a dire mis a part les revisions pour les exams. J'ai pu relire les cours ou voir les vidéos et refaire les exercices afin de les enregistrer. 
+
+
 
 
